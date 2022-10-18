@@ -53,6 +53,12 @@ Section:NewButton("AutoFarm", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
 end)
 
+local Tab = Window:NewTab("Blox Fruit")
+local Section = Tab:NewSection("Blox Fruit")
+Section:NewButton("NevaHub", "Very OP Enjoin:)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
 local Tab = Window:NewTab("Misc")
 local Section = Tab:NewSection("Misc")
 Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
