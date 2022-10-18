@@ -52,3 +52,9 @@ end)
 Section:NewButton("AutoFarm", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
 end)
+
+local Tab = Window:NewTab("Misc")
+local Section = Tab:NewSection("Misc")
+Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/En/main/README.md"))();
+end)
