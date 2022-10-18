@@ -21,12 +21,12 @@ Section:NewButton("Swag Mode", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
-Section:NewButton("Arctic", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+Section:NewButton("Enclose", "Very OP Enjoin:)", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Pvpahh/enclosed/main/enclosed'))()
 end)
 
-Section:NewButton("Aimlocking", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/das/main/README.md"))();
+Section:NewButton("Arctic", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
 end)
 
 Section:NewButton("Nucker Mode", "Very OP Enjoin:)", function()
@@ -43,4 +43,12 @@ end)
 
 Section:NewButton("Fake Marco", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/ad/main/README.md"))();
+end)
+
+Section:NewButton("Aimlocking", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/das/main/README.md"))();
+end)
+
+Section:NewButton("AutoFarm", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
 end)
