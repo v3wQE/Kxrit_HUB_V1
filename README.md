@@ -79,6 +79,6 @@ Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/En/main/README.md"))();
 end)
 
-Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
+Section:NewButton("Infinite Yield", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
