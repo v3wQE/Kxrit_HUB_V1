@@ -62,7 +62,7 @@ end)
 local Tab = Window:NewTab("Duolingo Game Hub")
 local Section = Tab:NewSection("Duolingo Game Hub")
 Section:NewButton("Duolingo HubBYKxrit", "Very OP Enjoin:)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/En/main/README.md"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Duolingo/main/README.md"))();
 end)
 
 local Tab = Window:NewTab("Misc")
