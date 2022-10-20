@@ -49,6 +49,10 @@ Section:NewButton("Aimlocking", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/das/main/README.md"))();
 end)
 
+Section:NewButton("Show FOV Circle", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/FOV/main/README.md"))();
+end)
+
 Section:NewButton("AimlockingV2", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/DiBGLvDd"))();
 end)
