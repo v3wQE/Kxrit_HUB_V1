@@ -57,6 +57,16 @@ Section:NewButton("AimlockingV2", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/DiBGLvDd"))();
 end)
 
+Section:NewButton("AimlockingV3", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/waederfgrb/main/README.md"))();
+
+end)
+
+Section:NewButton("Slintaim", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/efb/main/README.md"))();
+
+end)
+
 Section:NewButton("AutoFarm", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/74VJ07iY", true))()
 end)
