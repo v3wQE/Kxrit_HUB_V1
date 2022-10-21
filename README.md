@@ -76,6 +76,16 @@ Section:NewButton("AutoFarmV2", "Very OP Enjoin:)", function()
 
 end)
 
+Section:NewButton("Animetion", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/vereqw/main/README.md"))();
+
+end)
+
+Section:NewButton("Animetionpack", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/animetion/main/README.md"))();
+
+end)
+
 local Tab = Window:NewTab("Blox Fruit")
 local Section = Tab:NewSection("Blox Fruit")
 Section:NewButton("NevaHub", "Very OP Enjoin:)", function()
