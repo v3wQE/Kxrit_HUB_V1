@@ -115,3 +115,7 @@ end)
 Section:NewButton("Fps Boots", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/fps-boots/main/README.md"))();
 end)
+
+Section:NewButton("Fps Boots", "Very OP Enjoin:)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
+end)
