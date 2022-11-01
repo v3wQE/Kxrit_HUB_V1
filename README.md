@@ -62,6 +62,11 @@ Section:NewButton("AimlockingV3", "Very OP Enjoin:)", function()
 
 end)
 
+Section:NewButton("AimlockingV4", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AimlockV4/main/README.md"))();
+
+end)
+
 Section:NewButton("Slintaim", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/efb/main/README.md"))();
 
