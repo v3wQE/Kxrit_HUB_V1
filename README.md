@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("👑Krit HUB👽 "GrapeTheme")
+local Window = Library.CreateLib("Kxrit HUB :)", "GrapeTheme")
 
 
 local Tab = Window:NewTab("Phantom Forces")
