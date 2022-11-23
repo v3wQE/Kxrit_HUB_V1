@@ -26,6 +26,10 @@ Section:NewButton("Swag Mode", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
+Section:NewButton("Vortex", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+end)
+
 Section:NewButton("Enclose", "Very OP Enjoin:)", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pvpahh/enclosed/main/enclosed'))()
 end)
