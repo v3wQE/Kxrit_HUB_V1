@@ -8,8 +8,12 @@ Section:NewButton("Esp", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/test1/main/README.md"))();
 end)
 
-Section:NewButton("HITBOX", "Very OP Enjoin:)", function()
+Section:NewButton("HITBOX HEAD", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Hitbox/main/README.md"))();
+end)
+
+Section:NewButton("HITBOX TORSO", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Hitbox-TORSO/main/README.md"))();
 end)
 
 Section:NewButton("SkiHub", "Very OP Enjoin:)", function()
