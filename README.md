@@ -110,6 +110,10 @@ Section:NewButton("NevaHub", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 end)
 
+Section:NewButton("CFrameHub", "Very OP Enjoin:)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruit.lua"))()
+end)
+
 local Tab = Window:NewTab("Event Item")
 local Section = Tab:NewSection("Event Item")
 Section:NewButton("Duolingo HubBYKxrit", "Very OP Enjoin:)", function()
