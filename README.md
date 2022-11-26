@@ -106,11 +106,11 @@ end)
 
 local Tab = Window:NewTab("Legends Of Speedt")
 local Section = Tab:NewSection("Legends Of Speed")
-Section:NewButton("NevaHub", "Very OP Enjoin:)", function()
+Section:NewButton("Speed HubV1", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/v3wQE/Legend-of-speed/main/README.md'))()
 end)
 
-Section:NewButton("NevaHub", "Very OP Enjoin:)", function()
+Section:NewButton("Speed HubV2", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Legends-of-speed'),true))()
 end)
 
