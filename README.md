@@ -62,12 +62,16 @@ Section:NewButton("Marco ถอยหลัง", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/erfqaw/main/README.md"))();
 end)
 
-Section:NewButton("Aimlocking", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/das/main/README.md"))();
-end)
-
 Section:NewButton("Show FOV Circle", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/FOV/main/README.md"))();
+end)
+
+Section:NewButton("Antilocking", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/antilocking./main/README.md"))();
+end)
+
+Section:NewButton("Aimlocking", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/das/main/README.md"))();
 end)
 
 Section:NewButton("AimlockingV2", "Very OP Enjoin:)", function()
@@ -81,6 +85,11 @@ end)
 
 Section:NewButton("AimlockingV4", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AimlockV4/main/README.md"))();
+
+end)
+
+Section:NewButton("Best dot locking", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Dotlocking/main/README.md"))();
 
 end)
 
