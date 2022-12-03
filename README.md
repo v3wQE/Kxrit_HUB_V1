@@ -131,17 +131,14 @@ Section:NewButton("Speed HubV2", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Legends-of-speed'),true))()
 end)
 
-local Tab = Window:NewTab("Da Hood")
-local Section = Tab:NewSection("Da Hood")
-Section:NewButton("GUIV1", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/DHGUIV1/main/README.md"))();
-end)
-
 local Tab = Window:NewTab("Bee Swarm")
 local Section = Tab:NewSection("Bee Swarm")
-Section:NewButton("NevaHub", "Very OP Enjoin:)", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
+Section:NewButton("GUIV1", "Very OP Enjoin:)", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
 end)
+
+local Tab = Window:NewTab("Blox Fruit")
+local Section = Tab:NewSection("Blox Fruit")
 
 Section:NewButton("CFrameHub", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruit.lua"))()
