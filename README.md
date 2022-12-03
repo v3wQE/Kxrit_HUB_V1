@@ -2,6 +2,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Kxrit HUB :)", "GrapeTheme")
 
 
+local Tab = Window:NewTab("Kxrit HUBV2")
+local Section = Tab:NewSection("Kxrit HUBV2")
+Section:NewButton("Kxrit HUBV2", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Kxrit-HUBV2/main/README.md"))();
+end)
+
 local Tab = Window:NewTab("Phantom Forces")
 local Section = Tab:NewSection("Phantom Forces")
 Section:NewButton("Esp", "Very OP Enjoin:)", function()
