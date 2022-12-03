@@ -133,7 +133,7 @@ end)
 
 local Tab = Window:NewTab("Bee Swarm")
 local Section = Tab:NewSection("Bee Swarm")
-Section:NewButton("GUIV1", "Very OP Enjoin:)", function()
+Section:NewButton("Bee Swarm V1", "Very OP Enjoin:)", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
 end)
 
