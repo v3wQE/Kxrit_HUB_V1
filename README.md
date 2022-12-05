@@ -170,6 +170,10 @@ Section:NewButton("Infinite Yield", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+Section:NewButton("FixPing", "Very OP Enjoin:)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/v3wQE/FixPing/main/README.md'))()
+end)
+
 Section:NewButton("Fps Boots", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/fps-boots/main/README.md"))();
 end)
