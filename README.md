@@ -80,6 +80,10 @@ Section:NewButton("Antilocking", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/antilocking./main/README.md"))();
 end)
 
+Section:NewButton("BypassAntilocking", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Bypass-Antilock/main/README.md"))();
+end)
+
 Section:NewButton("Aimlocking", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/das/main/README.md"))();
 end)
