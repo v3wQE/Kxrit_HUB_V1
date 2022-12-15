@@ -32,6 +32,10 @@ Section:NewButton("GUIV1", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/DHGUIV1/main/README.md"))();
 end)
 
+Section:NewButton("Polakya", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Polakya/main/README.md"))();
+end)
+
 Section:NewButton("Lora X", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/lora-x/main/README.md"))();
 end)
