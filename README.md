@@ -105,7 +105,7 @@ Section:NewButton("AimlockingV3", "Very OP Enjoin:)", function()
 
 end)
 
-Section:NewButton("AimlockingV4", "Very OP Enjoin:)", function()
+Section:NewButton("Smooth tracing", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AimlockV4/main/README.md"))();
 
 end)
