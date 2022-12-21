@@ -110,6 +110,11 @@ Section:NewButton("Smooth tracing", "Very OP Enjoin:)", function()
 
 end)
 
+Section:NewButton("Balantlock", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Balant-locking/main/README.md"))();
+
+end)
+
 Section:NewButton("Best dot locking", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Dotlocking/main/README.md"))();
 
