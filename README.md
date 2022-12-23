@@ -44,6 +44,10 @@ Section:NewButton("Fly X", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/flying/main/README.md"))();
 end)
 
+Section:NewButton("AdminFly", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
+end)
+
 Section:NewButton("Swag Mode", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
