@@ -150,9 +150,13 @@ Section:NewButton("Animetionpack", "Very OP Enjoin:)", function()
 end)
 
 local Tab = Window:NewTab("Da HoodV2")
-local Section = Tab:NewSection("Da Hood")
+local Section = Tab:NewSection("Da HoodV2")
 Section:NewButton("Skyantilocking", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Sky-antilocking/main/README.md"))();
+end)
+
+Section:NewButton("AIMVIEWER", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AIMVIEWER/main/README.md"))();
 end)
 
 local Tab = Window:NewTab("Legends Of Speedt")
