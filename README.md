@@ -149,6 +149,12 @@ Section:NewButton("Animetionpack", "Very OP Enjoin:)", function()
 
 end)
 
+local Tab = Window:NewTab("Da HoodV2")
+local Section = Tab:NewSection("Da Hood")
+Section:NewButton("Skyantilocking", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Sky-antilocking/main/README.md"))();
+end)
+
 local Tab = Window:NewTab("Legends Of Speedt")
 local Section = Tab:NewSection("Legends Of Speed")
 Section:NewButton("Speed HubV1", "Very OP Enjoin:)", function()
