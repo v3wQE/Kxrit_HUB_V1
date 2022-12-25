@@ -229,7 +229,6 @@ Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
       loadstring(game:HttpGet("https://pastebin.com/raw/BtYcwhiu"))();
 end)
 
-local Section = Tab:NewSection("Another Executor")
-Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
+Section:NewButton("Another Executor", "Very OP Enjoin:)", function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Executor/main/README.md"))();
 end)
