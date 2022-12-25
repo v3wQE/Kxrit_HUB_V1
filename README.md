@@ -222,3 +222,9 @@ end)
 Section:NewButton("AntiAfk", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
 end)
+
+local Tab = Window:NewTab("Test")
+local Section = Tab:NewSection("Test")
+Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
+end)
