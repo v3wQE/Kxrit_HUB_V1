@@ -223,8 +223,13 @@ Section:NewButton("AntiAfk", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
 end)
 
-local Tab = Window:NewTab("Test")
-local Section = Tab:NewSection("Test")
+local Tab = Window:NewTab("Executor")
+local Section = Tab:NewSection("Synapse X UI")
 Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
+      loadstring(game:HttpGet("https://pastebin.com/raw/BtYcwhiu"))();
+end)
+
+local Section = Tab:NewSection("Another Executor")
+Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Executor/main/README.md"))();
 end)
