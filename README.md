@@ -224,8 +224,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/RE
 end)
 
 local Tab = Window:NewTab("Executor")
-local Section = Tab:NewSection("Synapse X UI")
-Section:NewButton("Rejoin", "Very OP Enjoin:)", function()
+local Section = Tab:NewSection("Executor")
+Section:NewButton("Synapse X", "Very OP Enjoin:)", function()
       loadstring(game:HttpGet("https://pastebin.com/raw/BtYcwhiu"))();
 end)
 
