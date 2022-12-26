@@ -226,7 +226,7 @@ end)
 local Tab = Window:NewTab("Executor")
 local Section = Tab:NewSection("Executor")
 Section:NewButton("Synapse X", "Very OP Enjoin:)", function()
-      loadstring(game:HttpGet("https://pastebin.com/raw/BtYcwhiu"))();
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Synapse-X/main/README.md"))();
 end)
 
 Section:NewButton("Another Executor", "Very OP Enjoin:)", function()
