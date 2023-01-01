@@ -163,6 +163,12 @@ Section:NewButton("AIMVIEWER", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AIMVIEWER/main/README.md"))();
 end)
 
+local Tab = Window:NewTab("Da HoodBypass")
+local Section = Tab:NewSection("Bee Swarm")
+Section:NewButton("Bee Swarm V1", "Very OP Enjoin:)", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/v3wQE/Bypass./main/README.md'))()
+end)
+
 local Tab = Window:NewTab("Legends Of Speedt")
 local Section = Tab:NewSection("Legends Of Speed")
 Section:NewButton("Speed HubV1", "Very OP Enjoin:)", function()
@@ -190,6 +196,16 @@ local Tab = Window:NewTab("Event Item")
 local Section = Tab:NewSection("Event Item")
 Section:NewButton("Duolingo HubBYKxrit", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Duolingo/main/README.md"))();
+end)
+
+local Tab = Window:NewTab("Executor")
+local Section = Tab:NewSection("Executor")
+Section:NewButton("Synapse X", "Very OP Enjoin:)", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Synapse-X/main/README.md"))();
+end)
+
+Section:NewButton("Another Executor", "Very OP Enjoin:)", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Executor/main/README.md"))();
 end)
 
 Section:NewButton("School of Sport", "Very OP Enjoin:)", function()
@@ -223,12 +239,3 @@ Section:NewButton("AntiAfk", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
 end)
 
-local Tab = Window:NewTab("Executor")
-local Section = Tab:NewSection("Executor")
-Section:NewButton("Synapse X", "Very OP Enjoin:)", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Synapse-X/main/README.md"))();
-end)
-
-Section:NewButton("Another Executor", "Very OP Enjoin:)", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Executor/main/README.md"))();
-end)
