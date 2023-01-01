@@ -163,9 +163,9 @@ Section:NewButton("AIMVIEWER", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AIMVIEWER/main/README.md"))();
 end)
 
-local Tab = Window:NewTab("Da HoodBypass")
-local Section = Tab:NewSection("Bee Swarm")
-Section:NewButton("Bee Swarm V1", "Very OP Enjoin:)", function()
+local Tab = Window:NewTab("DaHoodBypass")
+local Section = Tab:NewSection("DaHoodBypass")
+Section:NewButton("DaHoodBypass", "Very OP Enjoin:)", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/v3wQE/Bypass./main/README.md'))()
 end)
 
