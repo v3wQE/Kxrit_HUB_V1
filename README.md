@@ -1,3 +1,22 @@
+ local function callback(Text)
+ if Text == "Button1 text" then
+  print ("Answer")
+elseif Text == ("Button2 text") then
+ print ("Answer2")
+ end
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Made By Kxrit Hub";
+ Text = "I Hope You Enjoin :)";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Kxrit HUB :)", "GrapeTheme")
 
@@ -76,11 +95,11 @@ Section:NewButton("Zapped", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet('https://ekso.gq/raw/relases/zapped.lua'))()
 end)
 
-Section:NewButton("Marco เดินหน้า", "Very OP Enjoin:)", function()
+Section:NewButton("Marco500", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/ad/main/README.md"))();
 end)
 
-Section:NewButton("Marco ถอยหลัง", "Very OP Enjoin:)", function()
+Section:NewButton("Marco300", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/erfqaw/main/README.md"))();
 end)
 
@@ -163,8 +182,6 @@ Section:NewButton("AIMVIEWER", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AIMVIEWER/main/README.md"))();
 end)
 
-local Tab = Window:NewTab("DaHoodBypass")
-local Section = Tab:NewSection("DaHoodBypass")
 Section:NewButton("DaHoodBypass", "Very OP Enjoin:)", function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/v3wQE/Bypass./main/README.md'))()
 end)
