@@ -18,7 +18,7 @@ game.StarterGui:SetCore("SendNotification",  {
 })
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Kxrit HUB :)", "GrapeTheme")
+local Window = Library.CreateLib("Kxrit HUB :)", "Synapse")
 
 
 local Tab = Window:NewTab("Kxrit HUBV2")
@@ -196,12 +196,6 @@ Section:NewButton("Speed HubV2", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Legends-of-speed'),true))()
 end)
 
-local Tab = Window:NewTab("Bee Swarm")
-local Section = Tab:NewSection("Bee Swarm")
-Section:NewButton("Bee Swarm V1", "Very OP Enjoin:)", function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
-end)
-
 local Tab = Window:NewTab("Blox Fruit")
 local Section = Tab:NewSection("Blox Fruit")
 
@@ -255,4 +249,8 @@ end)
 Section:NewButton("AntiAfk", "Very OP Enjoin:)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/AntiAfk/main/README.md"))();
 end)
-
+local Tab = Window:NewTab("Toggle")
+local Section = Tab:NewSection("Toggle")
+Section:NewKeybind("v", "Press v for hide ui", Enum.KeyCode.V, function()
+	Library:ToggleUI()
+end)
