@@ -10,7 +10,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
- Title = "Welcome to Kxrit Hub";
+ Title = "v3w#9205";
  Text = "I Hope You Enjoin :)";
  Icon = "";
  Duration = 5;
