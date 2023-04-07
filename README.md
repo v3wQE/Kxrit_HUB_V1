@@ -95,12 +95,16 @@ Section:NewButton("Zapped", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet('https://ekso.gq/raw/relases/zapped.lua'))()
 end)
 
-Section:NewButton("Marco500", "Very OP Enjoin:)", function()
+Section:NewButton("Macro500", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/ad/main/README.md"))();
 end)
 
-Section:NewButton("Marco300", "Very OP Enjoin:)", function()
+Section:NewButton("Macro300", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/erfqaw/main/README.md"))();
+end)
+
+Section:NewButton("MacroGUI", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QZJKSbtS"))();
 end)
 
 Section:NewButton("Show FOV Circle", "Very OP Enjoin:)", function()
