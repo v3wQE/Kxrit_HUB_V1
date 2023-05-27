@@ -137,6 +137,16 @@ Section:NewButton("Smooth tracing", "Very OP Enjoin:)", function()
 
 end)
 
+Section:NewButton("Slintaim(40%HITS)", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Legit/main/README.md"))();
+
+end)
+
+Section:NewButton("Slintaim(100%HITS)", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/efb/main/README.md"))();
+
+end)
+
 Section:NewButton("Balantlock", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Balant-locking/main/README.md"))();
 
@@ -144,11 +154,6 @@ end)
 
 Section:NewButton("Best dot locking", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Dotlocking/main/README.md"))();
-
-end)
-
-Section:NewButton("Slintaim", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/efb/main/README.md"))();
 
 end)
 
