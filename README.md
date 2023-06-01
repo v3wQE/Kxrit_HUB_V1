@@ -147,8 +147,13 @@ Section:NewButton("Slintaim(100%HITS)", "Very OP Enjoin:)", function()
 
 end)
 
-Section:NewButton("Balantlock", "Very OP Enjoin:)", function()
+Section:NewButton("Bubblelock", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Balant-locking/main/README.md"))();
+
+end)
+
+Section:NewButton("Balantlock", "Very OP Enjoin:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/bubble-Locking/main/README.md"))();
 
 end)
 
