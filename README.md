@@ -137,15 +137,6 @@ Section:NewButton("Smooth tracing", "Very OP Enjoin:)", function()
 
 end)
 
-Section:NewButton("Slintaim(40%HITS)", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/Legit/main/README.md"))();
-
-end)
-
-Section:NewButton("Slintaim(100%HITS)", "Very OP Enjoin:)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/efb/main/README.md"))();
-
-end)
 
 Section:NewButton("Bubblelock", "Very OP Enjoin:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/v3wQE/bubble-Locking/main/README.md"))();
